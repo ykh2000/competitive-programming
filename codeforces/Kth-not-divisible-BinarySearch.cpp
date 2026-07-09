@@ -25,38 +25,30 @@
 const int N = 2e5+5;
 using namespace std;
 
-/**
- * Iteration mindset to mapping mindset
- * 
- * 
- */
-
 void solve() {
     ll n,k;cin>>n>>k;
-    // number of full blocks u skip
-    ll blocks  = (k-1)/(n-1);
-    /**
-     * blocks * n => The Skipped Distance (blocks*n)
-     */
-    // numbers we have passed by skipping 
-    // each block size is n, skipping total numbers = blocks*n;
-    ll skipped_distance = blocks*n;
-    /**
-     * remainder is the valid number left to count in the current block 
-     * Total number of valid number we already counted  =>
-     * blocks*(n-1).
-     * 
-     */
-    ll remainder = (k- blocks*(n-1));
-    cout <<  skipped_distance + remainder <<endl;
+    ll left = 1;
+    ll right = 2e18;
+    ll ans = right;
+    while(left<=right){
+        ll mid  = left + (right - left)/2;
+        ll cnt_nt_div= mid - (mid/n);
+        if(cnt_nt_div >= k){
+            ans = mid;
+            right = mid-1;
+        }else{
+            left = mid + 1;
+        }
+    }
+ cout << ans << '\n';
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int t;cin>>t;
-    while(t--){
+    int t;cin>>t;while(t--){
         solve();
     }
+
     return 0;
 }

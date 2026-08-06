@@ -1,0 +1,512 @@
+[
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/AtCoder___AtCoder_Beginner_Contest_206Sponsored_by_Panasonic_C___Swappable_cpp.dir/AtCoder_-_AtCoder_Beginner_Contest_206Sponsored_by_Panasonic/C___Swappable.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/AtCoder - AtCoder Beginner Contest 206Sponsored by Panasonic/C___Swappable.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/AtCoder - AtCoder Beginner Contest 206Sponsored by Panasonic/C___Swappable.cpp",
+  "output": "CMakeFiles/AtCoder___AtCoder_Beginner_Contest_206Sponsored_by_Panasonic_C___Swappable_cpp.dir/AtCoder_-_AtCoder_Beginner_Contest_206Sponsored_by_Panasonic/C___Swappable.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES___CSES_Problem_Set_Bit_Strings_cpp.dir/CSES_-_CSES_Problem_Set/Bit_Strings.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES - CSES Problem Set/Bit_Strings.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES - CSES Problem Set/Bit_Strings.cpp",
+  "output": "CMakeFiles/CSES___CSES_Problem_Set_Bit_Strings_cpp.dir/CSES_-_CSES_Problem_Set/Bit_Strings.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES___CSES_Problem_Set_Coin_Piles_cpp.dir/CSES_-_CSES_Problem_Set/Coin_Piles.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES - CSES Problem Set/Coin_Piles.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES - CSES Problem Set/Coin_Piles.cpp",
+  "output": "CMakeFiles/CSES___CSES_Problem_Set_Coin_Piles_cpp.dir/CSES_-_CSES_Problem_Set/Coin_Piles.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES___CSES_Problem_Set_Gray_Code_cpp.dir/CSES_-_CSES_Problem_Set/Gray_Code.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES - CSES Problem Set/Gray_Code.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES - CSES Problem Set/Gray_Code.cpp",
+  "output": "CMakeFiles/CSES___CSES_Problem_Set_Gray_Code_cpp.dir/CSES_-_CSES_Problem_Set/Gray_Code.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_A_ACM_ICPC_cpp.dir/CSES/A_ACM_ICPC.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/A_ACM_ICPC.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/A_ACM_ICPC.cpp",
+  "output": "CMakeFiles/CSES_A_ACM_ICPC_cpp.dir/CSES/A_ACM_ICPC.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_A_Pizza_Separation_cpp.dir/CSES/A_Pizza_Separation.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/A_Pizza_Separation.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/A_Pizza_Separation.cpp",
+  "output": "CMakeFiles/CSES_A_Pizza_Separation_cpp.dir/CSES/A_Pizza_Separation.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_A_Two_Vessels_cpp.dir/CSES/A_Two_Vessels.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/A_Two_Vessels.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/A_Two_Vessels.cpp",
+  "output": "CMakeFiles/CSES_A_Two_Vessels_cpp.dir/CSES/A_Two_Vessels.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_Apartments_cpp.dir/CSES/Apartments.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/Apartments.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/Apartments.cpp",
+  "output": "CMakeFiles/CSES_Apartments_cpp.dir/CSES/Apartments.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_Concert_Tickets_cpp.dir/CSES/Concert_Tickets.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/Concert_Tickets.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/Concert_Tickets.cpp",
+  "output": "CMakeFiles/CSES_Concert_Tickets_cpp.dir/CSES/Concert_Tickets.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_DistinctNumbers_cpp.dir/CSES/DistinctNumbers.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/DistinctNumbers.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/DistinctNumbers.cpp",
+  "output": "CMakeFiles/CSES_DistinctNumbers_cpp.dir/CSES/DistinctNumbers.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_Increasing_Array_cpp.dir/CSES/Increasing_Array.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/Increasing_Array.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/Increasing_Array.cpp",
+  "output": "CMakeFiles/CSES_Increasing_Array_cpp.dir/CSES/Increasing_Array.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_Nearest_Smaller_Values_cpp.dir/CSES/Nearest_Smaller_Values.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/Nearest_Smaller_Values.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/Nearest_Smaller_Values.cpp",
+  "output": "CMakeFiles/CSES_Nearest_Smaller_Values_cpp.dir/CSES/Nearest_Smaller_Values.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_Number_Spiral_cpp.dir/CSES/Number_Spiral.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/Number_Spiral.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/Number_Spiral.cpp",
+  "output": "CMakeFiles/CSES_Number_Spiral_cpp.dir/CSES/Number_Spiral.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_Permutations_cpp.dir/CSES/Permutations.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/Permutations.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/Permutations.cpp",
+  "output": "CMakeFiles/CSES_Permutations_cpp.dir/CSES/Permutations.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_Repetition_cpp.dir/CSES/Repetition.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/Repetition.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/Repetition.cpp",
+  "output": "CMakeFiles/CSES_Repetition_cpp.dir/CSES/Repetition.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_Traffic_Lights_cpp.dir/CSES/Traffic_Lights.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/Traffic_Lights.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/Traffic_Lights.cpp",
+  "output": "CMakeFiles/CSES_Traffic_Lights_cpp.dir/CSES/Traffic_Lights.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_missingNum_cpp.dir/CSES/missingNum.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/missingNum.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/missingNum.cpp",
+  "output": "CMakeFiles/CSES_missingNum_cpp.dir/CSES/missingNum.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/CSES_weirAlgo_cpp.dir/CSES/weirAlgo.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/CSES/weirAlgo.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/CSES/weirAlgo.cpp",
+  "output": "CMakeFiles/CSES_weirAlgo_cpp.dir/CSES/weirAlgo.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/Codeforces___Codeforces_Round_439_Div_2_B_The_Eternal_ImmortalityFavorite_cpp.dir/Codeforces_-_Codeforces_Round_439_Div_2/B_The_Eternal_ImmortalityFavorite.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/Codeforces - Codeforces Round 439 Div 2/B_The_Eternal_ImmortalityFavorite.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/Codeforces - Codeforces Round 439 Div 2/B_The_Eternal_ImmortalityFavorite.cpp",
+  "output": "CMakeFiles/Codeforces___Codeforces_Round_439_Div_2_B_The_Eternal_ImmortalityFavorite_cpp.dir/Codeforces_-_Codeforces_Round_439_Div_2/B_The_Eternal_ImmortalityFavorite.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/Codeforces___Educational_Codeforces_Round_103_Rated_for_Div_2_A_K_divisible_SumFavorite_cpp.dir/Codeforces_-_Educational_Codeforces_Round_103_Rated_for_Div_2/A_K_divisible_SumFavorite.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/Codeforces - Educational Codeforces Round 103 Rated for Div 2/A_K_divisible_SumFavorite.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/Codeforces - Educational Codeforces Round 103 Rated for Div 2/A_K_divisible_SumFavorite.cpp",
+  "output": "CMakeFiles/Codeforces___Educational_Codeforces_Round_103_Rated_for_Div_2_A_K_divisible_SumFavorite_cpp.dir/Codeforces_-_Educational_Codeforces_Round_103_Rated_for_Div_2/A_K_divisible_SumFavorite.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/Leetcode_intro_dp_cpp.dir/Leetcode/intro-dp.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/Leetcode/intro-dp.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/Leetcode/intro-dp.cpp",
+  "output": "CMakeFiles/Leetcode_intro_dp_cpp.dir/Leetcode/intro-dp.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/Leetcode_minimizeSizeSubArr_cpp.dir/Leetcode/minimizeSizeSubArr.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/Leetcode/minimizeSizeSubArr.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/Leetcode/minimizeSizeSubArr.cpp",
+  "output": "CMakeFiles/Leetcode_minimizeSizeSubArr_cpp.dir/Leetcode/minimizeSizeSubArr.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/Leetcode_sortcolors_cpp.dir/Leetcode/sortcolors.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/Leetcode/sortcolors.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/Leetcode/sortcolors.cpp",
+  "output": "CMakeFiles/Leetcode_sortcolors_cpp.dir/Leetcode/sortcolors.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/Leetcode_valid_parentheses_cpp.dir/Leetcode/valid-parentheses.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/Leetcode/valid-parentheses.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/Leetcode/valid-parentheses.cpp",
+  "output": "CMakeFiles/Leetcode_valid_parentheses_cpp.dir/Leetcode/valid-parentheses.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/build_CMakeFiles_4_1_2_CompilerIdCXX_CMakeCXXCompilerId_cpp.dir/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/build/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/build/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+  "output": "CMakeFiles/build_CMakeFiles_4_1_2_CompilerIdCXX_CMakeCXXCompilerId_cpp.dir/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/cmake_build_debug_CMakeFiles_4_1_2_CompilerIdCXX_CMakeCXXCompilerId_cpp.dir/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+  "output": "CMakeFiles/cmake_build_debug_CMakeFiles_4_1_2_CompilerIdCXX_CMakeCXXCompilerId_cpp.dir/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_1_cpp.dir/codeforces/Misc/1.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/1.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/1.cpp",
+  "output": "CMakeFiles/codeforces_Misc_1_cpp.dir/codeforces/Misc/1.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_ABit_cpp.dir/codeforces/Misc/ABit.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/ABit.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/ABit.cpp",
+  "output": "CMakeFiles/codeforces_Misc_ABit_cpp.dir/codeforces/Misc/ABit.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_APetrAndBook_cpp.dir/codeforces/Misc/APetrAndBook.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/APetrAndBook.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/APetrAndBook.cpp",
+  "output": "CMakeFiles/codeforces_Misc_APetrAndBook_cpp.dir/codeforces/Misc/APetrAndBook.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Beautiful_Matrix_cpp.dir/codeforces/Misc/A_Beautiful_Matrix.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Beautiful_Matrix.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Beautiful_Matrix.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Beautiful_Matrix_cpp.dir/codeforces/Misc/A_Beautiful_Matrix.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Boy_or_Girl_cpp.dir/codeforces/Misc/A_Boy_or_Girl.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Boy_or_Girl.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Boy_or_Girl.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Boy_or_Girl_cpp.dir/codeforces/Misc/A_Boy_or_Girl.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Count_numbers_cpp.dir/codeforces/Misc/A_Count_numbers.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Count_numbers.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Count_numbers.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Count_numbers_cpp.dir/codeforces/Misc/A_Count_numbers.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Design_Tutorial_Learn_from_Math_cpp.dir/codeforces/Misc/A_Design_Tutorial_Learn_from_Math.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Design_Tutorial_Learn_from_Math.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Design_Tutorial_Learn_from_Math.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Design_Tutorial_Learn_from_Math_cpp.dir/codeforces/Misc/A_Design_Tutorial_Learn_from_Math.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Don_t_Try_to_Count_cpp.dir/codeforces/Misc/A_Don_t_Try_to_Count.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Don_t_Try_to_Count.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Don_t_Try_to_Count.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Don_t_Try_to_Count_cpp.dir/codeforces/Misc/A_Don_t_Try_to_Count.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Download_More_RAM_cpp.dir/codeforces/Misc/A_Download_More_RAM.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Download_More_RAM.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Download_More_RAM.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Download_More_RAM_cpp.dir/codeforces/Misc/A_Download_More_RAM.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Easy_As_ABC_cpp.dir/codeforces/Misc/A_Easy_As_ABC.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Easy_As_ABC.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Easy_As_ABC.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Easy_As_ABC_cpp.dir/codeforces/Misc/A_Easy_As_ABC.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Exponential_Equation_cpp.dir/codeforces/Misc/A_Exponential_Equation.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Exponential_Equation.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Exponential_Equation.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Exponential_Equation_cpp.dir/codeforces/Misc/A_Exponential_Equation.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Game_Outcome_cpp.dir/codeforces/Misc/A_Game_Outcome.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Game_Outcome.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Game_Outcome.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Game_Outcome_cpp.dir/codeforces/Misc/A_Game_Outcome.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_I_Wanna_Be_the_Guy_cpp.dir/codeforces/Misc/A_I_Wanna_Be_the_Guy.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_I_Wanna_Be_the_Guy.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_I_Wanna_Be_the_Guy.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_I_Wanna_Be_the_Guy_cpp.dir/codeforces/Misc/A_I_Wanna_Be_the_Guy.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Maximum_Increase_cpp.dir/codeforces/Misc/A_Maximum_Increase.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Maximum_Increase.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Maximum_Increase.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Maximum_Increase_cpp.dir/codeforces/Misc/A_Maximum_Increase.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Morning_cpp.dir/codeforces/Misc/A_Morning.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Morning.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Morning.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Morning_cpp.dir/codeforces/Misc/A_Morning.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Next_Round_cpp.dir/codeforces/Misc/A_Next_Round.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Next_Round.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Next_Round.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Next_Round_cpp.dir/codeforces/Misc/A_Next_Round.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Odd_Divisor_cpp.dir/codeforces/Misc/A_Odd_Divisor.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Odd_Divisor.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Odd_Divisor.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Odd_Divisor_cpp.dir/codeforces/Misc/A_Odd_Divisor.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_One_and_Two_cpp.dir/codeforces/Misc/A_One_and_Two.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_One_and_Two.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_One_and_Two.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_One_and_Two_cpp.dir/codeforces/Misc/A_One_and_Two.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Required_Remainder_cpp.dir/codeforces/Misc/A_Required_Remainder.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Required_Remainder.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Required_Remainder.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Required_Remainder_cpp.dir/codeforces/Misc/A_Required_Remainder.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Series_of_Crimes_cpp.dir/codeforces/Misc/A_Series_of_Crimes.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Series_of_Crimes.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Series_of_Crimes.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Series_of_Crimes_cpp.dir/codeforces/Misc/A_Series_of_Crimes.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Setting_up_Camp_cpp.dir/codeforces/Misc/A_Setting_up_Camp.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Setting_up_Camp.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Setting_up_Camp.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Setting_up_Camp_cpp.dir/codeforces/Misc/A_Setting_up_Camp.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Team_cpp.dir/codeforces/Misc/A_Team.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Team.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Team.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Team_cpp.dir/codeforces/Misc/A_Team.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Triangular_numbers_cpp.dir/codeforces/Misc/A_Triangular_numbers.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Triangular_numbers.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Triangular_numbers.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Triangular_numbers_cpp.dir/codeforces/Misc/A_Triangular_numbers.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_A_Way_Too_Long_Words_cpp.dir/codeforces/Misc/A_Way_Too_Long_Words.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Way_Too_Long_Words.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/A_Way_Too_Long_Words.cpp",
+  "output": "CMakeFiles/codeforces_Misc_A_Way_Too_Long_Words_cpp.dir/codeforces/Misc/A_Way_Too_Long_Words.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_B_Beautiful_Divisors_cpp.dir/codeforces/Misc/B_Beautiful_Divisors.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/B_Beautiful_Divisors.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/B_Beautiful_Divisors.cpp",
+  "output": "CMakeFiles/codeforces_Misc_B_Beautiful_Divisors_cpp.dir/codeforces/Misc/B_Beautiful_Divisors.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_B_Cat_Fox_and_the_Lonely_Array_cpp.dir/codeforces/Misc/B_Cat_Fox_and_the_Lonely_Array.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/B_Cat_Fox_and_the_Lonely_Array.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/B_Cat_Fox_and_the_Lonely_Array.cpp",
+  "output": "CMakeFiles/codeforces_Misc_B_Cat_Fox_and_the_Lonely_Array_cpp.dir/codeforces/Misc/B_Cat_Fox_and_the_Lonely_Array.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_B_Erase_First_or_Second_Letter_cpp.dir/codeforces/Misc/B_Erase_First_or_Second_Letter.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/B_Erase_First_or_Second_Letter.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/B_Erase_First_or_Second_Letter.cpp",
+  "output": "CMakeFiles/codeforces_Misc_B_Erase_First_or_Second_Letter_cpp.dir/codeforces/Misc/B_Erase_First_or_Second_Letter.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_B_Wallet_Exchange_cpp.dir/codeforces/Misc/B_Wallet_Exchange.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/B_Wallet_Exchange.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/B_Wallet_Exchange.cpp",
+  "output": "CMakeFiles/codeforces_Misc_B_Wallet_Exchange_cpp.dir/codeforces/Misc/B_Wallet_Exchange.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_B_YetnotherrokenKeoard_cpp.dir/codeforces/Misc/B_YetnotherrokenKeoard.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/B_YetnotherrokenKeoard.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/B_YetnotherrokenKeoard.cpp",
+  "output": "CMakeFiles/codeforces_Misc_B_YetnotherrokenKeoard_cpp.dir/codeforces/Misc/B_YetnotherrokenKeoard.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_C_Assembly_via_Minimums_cpp.dir/codeforces/Misc/C_Assembly_via_Minimums.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/C_Assembly_via_Minimums.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/C_Assembly_via_Minimums.cpp",
+  "output": "CMakeFiles/codeforces_Misc_C_Assembly_via_Minimums_cpp.dir/codeforces/Misc/C_Assembly_via_Minimums.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_C_Cellular_Network_Favorite_cpp.dir/codeforces/Misc/C_Cellular_Network_Favorite.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/C_Cellular_Network_Favorite.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/C_Cellular_Network_Favorite.cpp",
+  "output": "CMakeFiles/codeforces_Misc_C_Cellular_Network_Favorite_cpp.dir/codeforces/Misc/C_Cellular_Network_Favorite.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_C_K_th_Not_Divisible_by_n_cpp.dir/codeforces/Misc/C_K_th_Not_Divisible_by_n.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/C_K_th_Not_Divisible_by_n.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/C_K_th_Not_Divisible_by_n.cpp",
+  "output": "CMakeFiles/codeforces_Misc_C_K_th_Not_Divisible_by_n_cpp.dir/codeforces/Misc/C_K_th_Not_Divisible_by_n.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_C_Sort_the_array_cpp.dir/codeforces/Misc/C_Sort_the_array.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/C_Sort_the_array.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/C_Sort_the_array.cpp",
+  "output": "CMakeFiles/codeforces_Misc_C_Sort_the_array_cpp.dir/codeforces/Misc/C_Sort_the_array.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_Count_Balls_cpp.dir/codeforces/Misc/Count_Balls.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/Count_Balls.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/Count_Balls.cpp",
+  "output": "CMakeFiles/codeforces_Misc_Count_Balls_cpp.dir/codeforces/Misc/Count_Balls.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_D_The_first_missing_number_cpp.dir/codeforces/Misc/D_The_first_missing_number.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/D_The_first_missing_number.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/D_The_first_missing_number.cpp",
+  "output": "CMakeFiles/codeforces_Misc_D_The_first_missing_number_cpp.dir/codeforces/Misc/D_The_first_missing_number.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_D_Unnatural_Language_Processing_cpp.dir/codeforces/Misc/D_Unnatural_Language_Processing.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/D_Unnatural_Language_Processing.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/D_Unnatural_Language_Processing.cpp",
+  "output": "CMakeFiles/codeforces_Misc_D_Unnatural_Language_Processing_cpp.dir/codeforces/Misc/D_Unnatural_Language_Processing.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_K_th_Common_Divisor_cpp.dir/codeforces/Misc/K_th_Common_Divisor.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/K_th_Common_Divisor.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/K_th_Common_Divisor.cpp",
+  "output": "CMakeFiles/codeforces_Misc_K_th_Common_Divisor_cpp.dir/codeforces/Misc/K_th_Common_Divisor.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_Kth_not_divisible_BinarySearch_cpp.dir/codeforces/Misc/Kth-not-divisible-BinarySearch.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/Kth-not-divisible-BinarySearch.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/Kth-not-divisible-BinarySearch.cpp",
+  "output": "CMakeFiles/codeforces_Misc_Kth_not_divisible_BinarySearch_cpp.dir/codeforces/Misc/Kth-not-divisible-BinarySearch.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_Large_Digits_cpp.dir/codeforces/Misc/Large_Digits.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/Large_Digits.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/Large_Digits.cpp",
+  "output": "CMakeFiles/codeforces_Misc_Large_Digits_cpp.dir/codeforces/Misc/Large_Digits.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_Swappable_cpp.dir/codeforces/Misc/Swappable.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/Swappable.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/Swappable.cpp",
+  "output": "CMakeFiles/codeforces_Misc_Swappable_cpp.dir/codeforces/Misc/Swappable.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_Trailing_Zeros_cpp.dir/codeforces/Misc/Trailing_Zeros.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/Trailing_Zeros.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/Trailing_Zeros.cpp",
+  "output": "CMakeFiles/codeforces_Misc_Trailing_Zeros_cpp.dir/codeforces/Misc/Trailing_Zeros.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/codeforces_Misc_Two_Knights_cpp.dir/codeforces/Misc/Two_Knights.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/Two_Knights.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/codeforces/Misc/Two_Knights.cpp",
+  "output": "CMakeFiles/codeforces_Misc_Two_Knights_cpp.dir/codeforces/Misc/Two_Knights.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/gfg_frac_knapsack_cpp.dir/gfg/frac-knapsack.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/gfg/frac-knapsack.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/gfg/frac-knapsack.cpp",
+  "output": "CMakeFiles/gfg_frac_knapsack_cpp.dir/gfg/frac-knapsack.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/gfg_greedy_activity_selection_greedy_cpp.dir/gfg/greedy/activity-selection-greedy.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/gfg/greedy/activity-selection-greedy.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/gfg/greedy/activity-selection-greedy.cpp",
+  "output": "CMakeFiles/gfg_greedy_activity_selection_greedy_cpp.dir/gfg/greedy/activity-selection-greedy.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/gfg_greedy_activity_selection_recursion_cpp.dir/gfg/greedy/activity-selection-recursion.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/gfg/greedy/activity-selection-recursion.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/gfg/greedy/activity-selection-recursion.cpp",
+  "output": "CMakeFiles/gfg_greedy_activity_selection_recursion_cpp.dir/gfg/greedy/activity-selection-recursion.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/gfg_greedy_activity_selection_sort_cpp.dir/gfg/greedy/activity-selection-sort.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/gfg/greedy/activity-selection-sort.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/gfg/greedy/activity-selection-sort.cpp",
+  "output": "CMakeFiles/gfg_greedy_activity_selection_sort_cpp.dir/gfg/greedy/activity-selection-sort.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/gfg_greedy_activity_selection_cpp.dir/gfg/greedy/activity-selection.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/gfg/greedy/activity-selection.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/gfg/greedy/activity-selection.cpp",
+  "output": "CMakeFiles/gfg_greedy_activity_selection_cpp.dir/gfg/greedy/activity-selection.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/gfg_mincost_arr_cpp.dir/gfg/mincost-arr.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/gfg/mincost-arr.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/gfg/mincost-arr.cpp",
+  "output": "CMakeFiles/gfg_mincost_arr_cpp.dir/gfg/mincost-arr.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/gfg_minrot_lock_cpp.dir/gfg/minrot-lock.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/gfg/minrot-lock.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/gfg/minrot-lock.cpp",
+  "output": "CMakeFiles/gfg_minrot_lock_cpp.dir/gfg/minrot-lock.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/usaco_Graph_EdgeList_cpp.dir/usaco/Graph/EdgeList.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/usaco/Graph/EdgeList.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/usaco/Graph/EdgeList.cpp",
+  "output": "CMakeFiles/usaco_Graph_EdgeList_cpp.dir/usaco/Graph/EdgeList.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/usaco_Graph_adj_list_cpp.dir/usaco/Graph/adj_list.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/usaco/Graph/adj_list.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/usaco/Graph/adj_list.cpp",
+  "output": "CMakeFiles/usaco_Graph_adj_list_cpp.dir/usaco/Graph/adj_list.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/usaco_Graph_bfs_cpp.dir/usaco/Graph/bfs.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/usaco/Graph/bfs.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/usaco/Graph/bfs.cpp",
+  "output": "CMakeFiles/usaco_Graph_bfs_cpp.dir/usaco/Graph/bfs.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/usaco_Graph_bfs2_cpp.dir/usaco/Graph/bfs2.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/usaco/Graph/bfs2.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/usaco/Graph/bfs2.cpp",
+  "output": "CMakeFiles/usaco_Graph_bfs2_cpp.dir/usaco/Graph/bfs2.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/usaco_Graph_di_graph_cpp.dir/usaco/Graph/di_graph.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/usaco/Graph/di_graph.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/usaco/Graph/di_graph.cpp",
+  "output": "CMakeFiles/usaco_Graph_di_graph_cpp.dir/usaco/Graph/di_graph.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/usaco_binarysearch_binSearch_cpp.dir/usaco/binarysearch/binSearch.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/usaco/binarysearch/binSearch.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/usaco/binarysearch/binSearch.cpp",
+  "output": "CMakeFiles/usaco_binarysearch_binSearch_cpp.dir/usaco/binarysearch/binSearch.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/usaco_binarysearch_binsearch_cp_cpp.dir/usaco/binarysearch/binsearch_cp.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/usaco/binarysearch/binsearch_cp.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/usaco/binarysearch/binsearch_cp.cpp",
+  "output": "CMakeFiles/usaco_binarysearch_binsearch_cp_cpp.dir/usaco/binarysearch/binsearch_cp.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/usaco_binarysearch_bitonicArr_cpp.dir/usaco/binarysearch/bitonicArr.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/usaco/binarysearch/bitonicArr.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/usaco/binarysearch/bitonicArr.cpp",
+  "output": "CMakeFiles/usaco_binarysearch_bitonicArr_cpp.dir/usaco/binarysearch/bitonicArr.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/usaco_binarysearch_painterpartition_cpp.dir/usaco/binarysearch/painterpartition.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/usaco/binarysearch/painterpartition.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/usaco/binarysearch/painterpartition.cpp",
+  "output": "CMakeFiles/usaco_binarysearch_painterpartition_cpp.dir/usaco/binarysearch/painterpartition.cpp.o"
+},
+{
+  "directory": "/Users/yashkhanduja/Documents/competitive programming/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -DLOCAL  -g -std=c++20 -arch arm64 -Wall -Wextra -Wshadow -g -o CMakeFiles/usaco_binarysearch_rotatedArr_cpp.dir/usaco/binarysearch/rotatedArr.cpp.o -c \"/Users/yashkhanduja/Documents/competitive programming/usaco/binarysearch/rotatedArr.cpp\"",
+  "file": "/Users/yashkhanduja/Documents/competitive programming/usaco/binarysearch/rotatedArr.cpp",
+  "output": "CMakeFiles/usaco_binarysearch_rotatedArr_cpp.dir/usaco/binarysearch/rotatedArr.cpp.o"
+}
+]

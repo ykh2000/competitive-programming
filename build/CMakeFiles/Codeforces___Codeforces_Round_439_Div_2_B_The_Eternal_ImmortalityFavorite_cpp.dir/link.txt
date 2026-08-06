@@ -1,0 +1,1 @@
+/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/Codeforces___Codeforces_Round_439_Div_2_B_The_Eternal_ImmortalityFavorite_cpp.dir/Codeforces_-_Codeforces_Round_439_Div_2/B_The_Eternal_ImmortalityFavorite.cpp.o" -o Codeforces___Codeforces_Round_439_Div_2_B_The_Eternal_ImmortalityFavorite_cpp

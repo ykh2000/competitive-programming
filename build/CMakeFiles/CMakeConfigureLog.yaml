@@ -1,0 +1,2353 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/Users/yashkhanduja/.mavis/bin/uname"
+      - "/Users/yashkhanduja/.local/bin/uname"
+      - "/Users/yashkhanduja/miniconda3/bin/uname"
+      - "/Users/yashkhanduja/miniconda3/condabin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Darwin - 25.5.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/Users/yashkhanduja/.mavis/bin/gmake"
+      - "/Users/yashkhanduja/.local/bin/gmake"
+      - "/Users/yashkhanduja/miniconda3/bin/gmake"
+      - "/Users/yashkhanduja/miniconda3/condabin/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/opt/homebrew/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/pkg/env/global/bin/gmake"
+      - "/opt/X11/bin/gmake"
+      - "/Library/TeX/texbin/gmake"
+      - "/Users/yashkhanduja/.cargo/bin/gmake"
+      - "/Users/yashkhanduja/.foundry/bin/gmake"
+      - "/Users/yashkhanduja/.mavis/bin/make"
+      - "/Users/yashkhanduja/.local/bin/make"
+      - "/Users/yashkhanduja/miniconda3/bin/make"
+      - "/Users/yashkhanduja/miniconda3/condabin/make"
+      - "/opt/homebrew/bin/make"
+      - "/opt/homebrew/sbin/make"
+      - "/usr/local/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin25-g++-15 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/yashkhanduja/Documents/competitive programming/build/CMakeFiles/4.1.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-ar-15"
+      - "aarch64-apple-darwin25-ar"
+      - "ar-15"
+      - "ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-ar-15"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-ar-15"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-ar-15"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-ar-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-ar-15"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-ar-15"
+      - "/usr/local/bin/aarch64-apple-darwin25-ar-15"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-ar-15"
+      - "/usr/bin/aarch64-apple-darwin25-ar-15"
+      - "/bin/aarch64-apple-darwin25-ar-15"
+      - "/usr/sbin/aarch64-apple-darwin25-ar-15"
+      - "/sbin/aarch64-apple-darwin25-ar-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-ar-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-ar-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-ar-15"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-ar-15"
+      - "/opt/X11/bin/aarch64-apple-darwin25-ar-15"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-ar-15"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-ar-15"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-ar-15"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-ar"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-ar"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-ar"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-ar"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-ar"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-ar"
+      - "/usr/local/bin/aarch64-apple-darwin25-ar"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-ar"
+      - "/usr/bin/aarch64-apple-darwin25-ar"
+      - "/bin/aarch64-apple-darwin25-ar"
+      - "/usr/sbin/aarch64-apple-darwin25-ar"
+      - "/sbin/aarch64-apple-darwin25-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-ar"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-ar"
+      - "/opt/X11/bin/aarch64-apple-darwin25-ar"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-ar"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-ar"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-ar"
+      - "/opt/homebrew/bin/ar-15"
+      - "/Users/yashkhanduja/.mavis/bin/ar-15"
+      - "/Users/yashkhanduja/.local/bin/ar-15"
+      - "/Users/yashkhanduja/miniconda3/bin/ar-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/ar-15"
+      - "/opt/homebrew/sbin/ar-15"
+      - "/usr/local/bin/ar-15"
+      - "/System/Cryptexes/App/usr/bin/ar-15"
+      - "/usr/bin/ar-15"
+      - "/bin/ar-15"
+      - "/usr/sbin/ar-15"
+      - "/sbin/ar-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/ar-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/ar-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/ar-15"
+      - "/pkg/env/global/bin/ar-15"
+      - "/opt/X11/bin/ar-15"
+      - "/Library/TeX/texbin/ar-15"
+      - "/Users/yashkhanduja/.cargo/bin/ar-15"
+      - "/Users/yashkhanduja/.foundry/bin/ar-15"
+      - "/opt/homebrew/bin/ar"
+      - "/Users/yashkhanduja/.mavis/bin/ar"
+      - "/Users/yashkhanduja/.local/bin/ar"
+      - "/Users/yashkhanduja/miniconda3/bin/ar"
+      - "/Users/yashkhanduja/miniconda3/condabin/ar"
+      - "/opt/homebrew/sbin/ar"
+      - "/usr/local/bin/ar"
+      - "/System/Cryptexes/App/usr/bin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-ranlib-15"
+      - "aarch64-apple-darwin25-ranlib"
+      - "ranlib-15"
+      - "ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-ranlib-15"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-ranlib-15"
+      - "/usr/local/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/usr/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/usr/sbin/aarch64-apple-darwin25-ranlib-15"
+      - "/sbin/aarch64-apple-darwin25-ranlib-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/opt/X11/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-ranlib-15"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-ranlib-15"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-ranlib"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-ranlib"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-ranlib"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-ranlib"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-ranlib"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-ranlib"
+      - "/usr/local/bin/aarch64-apple-darwin25-ranlib"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-ranlib"
+      - "/usr/bin/aarch64-apple-darwin25-ranlib"
+      - "/bin/aarch64-apple-darwin25-ranlib"
+      - "/usr/sbin/aarch64-apple-darwin25-ranlib"
+      - "/sbin/aarch64-apple-darwin25-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-ranlib"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-ranlib"
+      - "/opt/X11/bin/aarch64-apple-darwin25-ranlib"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-ranlib"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-ranlib"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-ranlib"
+      - "/opt/homebrew/bin/ranlib-15"
+      - "/Users/yashkhanduja/.mavis/bin/ranlib-15"
+      - "/Users/yashkhanduja/.local/bin/ranlib-15"
+      - "/Users/yashkhanduja/miniconda3/bin/ranlib-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/ranlib-15"
+      - "/opt/homebrew/sbin/ranlib-15"
+      - "/usr/local/bin/ranlib-15"
+      - "/System/Cryptexes/App/usr/bin/ranlib-15"
+      - "/usr/bin/ranlib-15"
+      - "/bin/ranlib-15"
+      - "/usr/sbin/ranlib-15"
+      - "/sbin/ranlib-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/ranlib-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/ranlib-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/ranlib-15"
+      - "/pkg/env/global/bin/ranlib-15"
+      - "/opt/X11/bin/ranlib-15"
+      - "/Library/TeX/texbin/ranlib-15"
+      - "/Users/yashkhanduja/.cargo/bin/ranlib-15"
+      - "/Users/yashkhanduja/.foundry/bin/ranlib-15"
+      - "/opt/homebrew/bin/ranlib"
+      - "/Users/yashkhanduja/.mavis/bin/ranlib"
+      - "/Users/yashkhanduja/.local/bin/ranlib"
+      - "/Users/yashkhanduja/miniconda3/bin/ranlib"
+      - "/Users/yashkhanduja/miniconda3/condabin/ranlib"
+      - "/opt/homebrew/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+      - "/System/Cryptexes/App/usr/bin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-strip-15"
+      - "aarch64-apple-darwin25-strip"
+      - "strip-15"
+      - "strip"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-strip-15"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-strip-15"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-strip-15"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-strip-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-strip-15"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-strip-15"
+      - "/usr/local/bin/aarch64-apple-darwin25-strip-15"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-strip-15"
+      - "/usr/bin/aarch64-apple-darwin25-strip-15"
+      - "/bin/aarch64-apple-darwin25-strip-15"
+      - "/usr/sbin/aarch64-apple-darwin25-strip-15"
+      - "/sbin/aarch64-apple-darwin25-strip-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-strip-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-strip-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-strip-15"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-strip-15"
+      - "/opt/X11/bin/aarch64-apple-darwin25-strip-15"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-strip-15"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-strip-15"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-strip-15"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-strip"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-strip"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-strip"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-strip"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-strip"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-strip"
+      - "/usr/local/bin/aarch64-apple-darwin25-strip"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-strip"
+      - "/usr/bin/aarch64-apple-darwin25-strip"
+      - "/bin/aarch64-apple-darwin25-strip"
+      - "/usr/sbin/aarch64-apple-darwin25-strip"
+      - "/sbin/aarch64-apple-darwin25-strip"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-strip"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-strip"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-strip"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-strip"
+      - "/opt/X11/bin/aarch64-apple-darwin25-strip"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-strip"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-strip"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-strip"
+      - "/opt/homebrew/bin/strip-15"
+      - "/Users/yashkhanduja/.mavis/bin/strip-15"
+      - "/Users/yashkhanduja/.local/bin/strip-15"
+      - "/Users/yashkhanduja/miniconda3/bin/strip-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/strip-15"
+      - "/opt/homebrew/sbin/strip-15"
+      - "/usr/local/bin/strip-15"
+      - "/System/Cryptexes/App/usr/bin/strip-15"
+      - "/usr/bin/strip-15"
+      - "/bin/strip-15"
+      - "/usr/sbin/strip-15"
+      - "/sbin/strip-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/strip-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/strip-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/strip-15"
+      - "/pkg/env/global/bin/strip-15"
+      - "/opt/X11/bin/strip-15"
+      - "/Library/TeX/texbin/strip-15"
+      - "/Users/yashkhanduja/.cargo/bin/strip-15"
+      - "/Users/yashkhanduja/.foundry/bin/strip-15"
+      - "/opt/homebrew/bin/strip"
+      - "/Users/yashkhanduja/.mavis/bin/strip"
+      - "/Users/yashkhanduja/.local/bin/strip"
+      - "/Users/yashkhanduja/miniconda3/bin/strip"
+      - "/Users/yashkhanduja/miniconda3/condabin/strip"
+      - "/opt/homebrew/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/System/Cryptexes/App/usr/bin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-ld-15"
+      - "aarch64-apple-darwin25-ld"
+      - "ld-15"
+      - "ld"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-ld-15"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-ld-15"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-ld-15"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-ld-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-ld-15"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-ld-15"
+      - "/usr/local/bin/aarch64-apple-darwin25-ld-15"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-ld-15"
+      - "/usr/bin/aarch64-apple-darwin25-ld-15"
+      - "/bin/aarch64-apple-darwin25-ld-15"
+      - "/usr/sbin/aarch64-apple-darwin25-ld-15"
+      - "/sbin/aarch64-apple-darwin25-ld-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-ld-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-ld-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-ld-15"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-ld-15"
+      - "/opt/X11/bin/aarch64-apple-darwin25-ld-15"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-ld-15"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-ld-15"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-ld-15"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-ld"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-ld"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-ld"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-ld"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-ld"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-ld"
+      - "/usr/local/bin/aarch64-apple-darwin25-ld"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-ld"
+      - "/usr/bin/aarch64-apple-darwin25-ld"
+      - "/bin/aarch64-apple-darwin25-ld"
+      - "/usr/sbin/aarch64-apple-darwin25-ld"
+      - "/sbin/aarch64-apple-darwin25-ld"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-ld"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-ld"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-ld"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-ld"
+      - "/opt/X11/bin/aarch64-apple-darwin25-ld"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-ld"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-ld"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-ld"
+      - "/opt/homebrew/bin/ld-15"
+      - "/Users/yashkhanduja/.mavis/bin/ld-15"
+      - "/Users/yashkhanduja/.local/bin/ld-15"
+      - "/Users/yashkhanduja/miniconda3/bin/ld-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/ld-15"
+      - "/opt/homebrew/sbin/ld-15"
+      - "/usr/local/bin/ld-15"
+      - "/System/Cryptexes/App/usr/bin/ld-15"
+      - "/usr/bin/ld-15"
+      - "/bin/ld-15"
+      - "/usr/sbin/ld-15"
+      - "/sbin/ld-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/ld-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/ld-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/ld-15"
+      - "/pkg/env/global/bin/ld-15"
+      - "/opt/X11/bin/ld-15"
+      - "/Library/TeX/texbin/ld-15"
+      - "/Users/yashkhanduja/.cargo/bin/ld-15"
+      - "/Users/yashkhanduja/.foundry/bin/ld-15"
+      - "/opt/homebrew/bin/ld"
+      - "/Users/yashkhanduja/.mavis/bin/ld"
+      - "/Users/yashkhanduja/.local/bin/ld"
+      - "/Users/yashkhanduja/miniconda3/bin/ld"
+      - "/Users/yashkhanduja/miniconda3/condabin/ld"
+      - "/opt/homebrew/sbin/ld"
+      - "/usr/local/bin/ld"
+      - "/System/Cryptexes/App/usr/bin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-nm-15"
+      - "aarch64-apple-darwin25-nm"
+      - "nm-15"
+      - "nm"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-nm-15"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-nm-15"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-nm-15"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-nm-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-nm-15"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-nm-15"
+      - "/usr/local/bin/aarch64-apple-darwin25-nm-15"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-nm-15"
+      - "/usr/bin/aarch64-apple-darwin25-nm-15"
+      - "/bin/aarch64-apple-darwin25-nm-15"
+      - "/usr/sbin/aarch64-apple-darwin25-nm-15"
+      - "/sbin/aarch64-apple-darwin25-nm-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-nm-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-nm-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-nm-15"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-nm-15"
+      - "/opt/X11/bin/aarch64-apple-darwin25-nm-15"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-nm-15"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-nm-15"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-nm-15"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-nm"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-nm"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-nm"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-nm"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-nm"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-nm"
+      - "/usr/local/bin/aarch64-apple-darwin25-nm"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-nm"
+      - "/usr/bin/aarch64-apple-darwin25-nm"
+      - "/bin/aarch64-apple-darwin25-nm"
+      - "/usr/sbin/aarch64-apple-darwin25-nm"
+      - "/sbin/aarch64-apple-darwin25-nm"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-nm"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-nm"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-nm"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-nm"
+      - "/opt/X11/bin/aarch64-apple-darwin25-nm"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-nm"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-nm"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-nm"
+      - "/opt/homebrew/bin/nm-15"
+      - "/Users/yashkhanduja/.mavis/bin/nm-15"
+      - "/Users/yashkhanduja/.local/bin/nm-15"
+      - "/Users/yashkhanduja/miniconda3/bin/nm-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/nm-15"
+      - "/opt/homebrew/sbin/nm-15"
+      - "/usr/local/bin/nm-15"
+      - "/System/Cryptexes/App/usr/bin/nm-15"
+      - "/usr/bin/nm-15"
+      - "/bin/nm-15"
+      - "/usr/sbin/nm-15"
+      - "/sbin/nm-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/nm-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/nm-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/nm-15"
+      - "/pkg/env/global/bin/nm-15"
+      - "/opt/X11/bin/nm-15"
+      - "/Library/TeX/texbin/nm-15"
+      - "/Users/yashkhanduja/.cargo/bin/nm-15"
+      - "/Users/yashkhanduja/.foundry/bin/nm-15"
+      - "/opt/homebrew/bin/nm"
+      - "/Users/yashkhanduja/.mavis/bin/nm"
+      - "/Users/yashkhanduja/.local/bin/nm"
+      - "/Users/yashkhanduja/miniconda3/bin/nm"
+      - "/Users/yashkhanduja/miniconda3/condabin/nm"
+      - "/opt/homebrew/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/System/Cryptexes/App/usr/bin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-objdump-15"
+      - "aarch64-apple-darwin25-objdump"
+      - "objdump-15"
+      - "objdump"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-objdump-15"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-objdump-15"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-objdump-15"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-objdump-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-objdump-15"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-objdump-15"
+      - "/usr/local/bin/aarch64-apple-darwin25-objdump-15"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-objdump-15"
+      - "/usr/bin/aarch64-apple-darwin25-objdump-15"
+      - "/bin/aarch64-apple-darwin25-objdump-15"
+      - "/usr/sbin/aarch64-apple-darwin25-objdump-15"
+      - "/sbin/aarch64-apple-darwin25-objdump-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-objdump-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-objdump-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-objdump-15"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-objdump-15"
+      - "/opt/X11/bin/aarch64-apple-darwin25-objdump-15"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-objdump-15"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-objdump-15"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-objdump-15"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-objdump"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-objdump"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-objdump"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-objdump"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-objdump"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-objdump"
+      - "/usr/local/bin/aarch64-apple-darwin25-objdump"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-objdump"
+      - "/usr/bin/aarch64-apple-darwin25-objdump"
+      - "/bin/aarch64-apple-darwin25-objdump"
+      - "/usr/sbin/aarch64-apple-darwin25-objdump"
+      - "/sbin/aarch64-apple-darwin25-objdump"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-objdump"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-objdump"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-objdump"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-objdump"
+      - "/opt/X11/bin/aarch64-apple-darwin25-objdump"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-objdump"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-objdump"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-objdump"
+      - "/opt/homebrew/bin/objdump-15"
+      - "/Users/yashkhanduja/.mavis/bin/objdump-15"
+      - "/Users/yashkhanduja/.local/bin/objdump-15"
+      - "/Users/yashkhanduja/miniconda3/bin/objdump-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/objdump-15"
+      - "/opt/homebrew/sbin/objdump-15"
+      - "/usr/local/bin/objdump-15"
+      - "/System/Cryptexes/App/usr/bin/objdump-15"
+      - "/usr/bin/objdump-15"
+      - "/bin/objdump-15"
+      - "/usr/sbin/objdump-15"
+      - "/sbin/objdump-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objdump-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objdump-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objdump-15"
+      - "/pkg/env/global/bin/objdump-15"
+      - "/opt/X11/bin/objdump-15"
+      - "/Library/TeX/texbin/objdump-15"
+      - "/Users/yashkhanduja/.cargo/bin/objdump-15"
+      - "/Users/yashkhanduja/.foundry/bin/objdump-15"
+      - "/opt/homebrew/bin/objdump"
+      - "/Users/yashkhanduja/.mavis/bin/objdump"
+      - "/Users/yashkhanduja/.local/bin/objdump"
+      - "/Users/yashkhanduja/miniconda3/bin/objdump"
+      - "/Users/yashkhanduja/miniconda3/condabin/objdump"
+      - "/opt/homebrew/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/System/Cryptexes/App/usr/bin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-objcopy-15"
+      - "aarch64-apple-darwin25-objcopy"
+      - "objcopy-15"
+      - "objcopy"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-objcopy-15"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-objcopy-15"
+      - "/usr/local/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/usr/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/usr/sbin/aarch64-apple-darwin25-objcopy-15"
+      - "/sbin/aarch64-apple-darwin25-objcopy-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/opt/X11/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-objcopy-15"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-objcopy-15"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-objcopy"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-objcopy"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-objcopy"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-objcopy"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-objcopy"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-objcopy"
+      - "/usr/local/bin/aarch64-apple-darwin25-objcopy"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-objcopy"
+      - "/usr/bin/aarch64-apple-darwin25-objcopy"
+      - "/bin/aarch64-apple-darwin25-objcopy"
+      - "/usr/sbin/aarch64-apple-darwin25-objcopy"
+      - "/sbin/aarch64-apple-darwin25-objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-objcopy"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-objcopy"
+      - "/opt/X11/bin/aarch64-apple-darwin25-objcopy"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-objcopy"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-objcopy"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-objcopy"
+      - "/opt/homebrew/bin/objcopy-15"
+      - "/Users/yashkhanduja/.mavis/bin/objcopy-15"
+      - "/Users/yashkhanduja/.local/bin/objcopy-15"
+      - "/Users/yashkhanduja/miniconda3/bin/objcopy-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/objcopy-15"
+      - "/opt/homebrew/sbin/objcopy-15"
+      - "/usr/local/bin/objcopy-15"
+      - "/System/Cryptexes/App/usr/bin/objcopy-15"
+      - "/usr/bin/objcopy-15"
+      - "/bin/objcopy-15"
+      - "/usr/sbin/objcopy-15"
+      - "/sbin/objcopy-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy-15"
+      - "/pkg/env/global/bin/objcopy-15"
+      - "/opt/X11/bin/objcopy-15"
+      - "/Library/TeX/texbin/objcopy-15"
+      - "/Users/yashkhanduja/.cargo/bin/objcopy-15"
+      - "/Users/yashkhanduja/.foundry/bin/objcopy-15"
+      - "/opt/homebrew/bin/objcopy"
+      - "/Users/yashkhanduja/.mavis/bin/objcopy"
+      - "/Users/yashkhanduja/.local/bin/objcopy"
+      - "/Users/yashkhanduja/miniconda3/bin/objcopy"
+      - "/Users/yashkhanduja/miniconda3/condabin/objcopy"
+      - "/opt/homebrew/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/pkg/env/global/bin/objcopy"
+      - "/opt/X11/bin/objcopy"
+      - "/Library/TeX/texbin/objcopy"
+      - "/Users/yashkhanduja/.cargo/bin/objcopy"
+      - "/Users/yashkhanduja/.foundry/bin/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-readelf-15"
+      - "aarch64-apple-darwin25-readelf"
+      - "readelf-15"
+      - "readelf"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-readelf-15"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-readelf-15"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-readelf-15"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-readelf-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-readelf-15"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-readelf-15"
+      - "/usr/local/bin/aarch64-apple-darwin25-readelf-15"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-readelf-15"
+      - "/usr/bin/aarch64-apple-darwin25-readelf-15"
+      - "/bin/aarch64-apple-darwin25-readelf-15"
+      - "/usr/sbin/aarch64-apple-darwin25-readelf-15"
+      - "/sbin/aarch64-apple-darwin25-readelf-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-readelf-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-readelf-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-readelf-15"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-readelf-15"
+      - "/opt/X11/bin/aarch64-apple-darwin25-readelf-15"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-readelf-15"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-readelf-15"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-readelf-15"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-readelf"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-readelf"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-readelf"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-readelf"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-readelf"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-readelf"
+      - "/usr/local/bin/aarch64-apple-darwin25-readelf"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-readelf"
+      - "/usr/bin/aarch64-apple-darwin25-readelf"
+      - "/bin/aarch64-apple-darwin25-readelf"
+      - "/usr/sbin/aarch64-apple-darwin25-readelf"
+      - "/sbin/aarch64-apple-darwin25-readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-readelf"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-readelf"
+      - "/opt/X11/bin/aarch64-apple-darwin25-readelf"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-readelf"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-readelf"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-readelf"
+      - "/opt/homebrew/bin/readelf-15"
+      - "/Users/yashkhanduja/.mavis/bin/readelf-15"
+      - "/Users/yashkhanduja/.local/bin/readelf-15"
+      - "/Users/yashkhanduja/miniconda3/bin/readelf-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/readelf-15"
+      - "/opt/homebrew/sbin/readelf-15"
+      - "/usr/local/bin/readelf-15"
+      - "/System/Cryptexes/App/usr/bin/readelf-15"
+      - "/usr/bin/readelf-15"
+      - "/bin/readelf-15"
+      - "/usr/sbin/readelf-15"
+      - "/sbin/readelf-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf-15"
+      - "/pkg/env/global/bin/readelf-15"
+      - "/opt/X11/bin/readelf-15"
+      - "/Library/TeX/texbin/readelf-15"
+      - "/Users/yashkhanduja/.cargo/bin/readelf-15"
+      - "/Users/yashkhanduja/.foundry/bin/readelf-15"
+      - "/opt/homebrew/bin/readelf"
+      - "/Users/yashkhanduja/.mavis/bin/readelf"
+      - "/Users/yashkhanduja/.local/bin/readelf"
+      - "/Users/yashkhanduja/miniconda3/bin/readelf"
+      - "/Users/yashkhanduja/miniconda3/condabin/readelf"
+      - "/opt/homebrew/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/pkg/env/global/bin/readelf"
+      - "/opt/X11/bin/readelf"
+      - "/Library/TeX/texbin/readelf"
+      - "/Users/yashkhanduja/.cargo/bin/readelf"
+      - "/Users/yashkhanduja/.foundry/bin/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-dlltool-15"
+      - "aarch64-apple-darwin25-dlltool"
+      - "dlltool-15"
+      - "dlltool"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-dlltool-15"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-dlltool-15"
+      - "/usr/local/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/usr/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/usr/sbin/aarch64-apple-darwin25-dlltool-15"
+      - "/sbin/aarch64-apple-darwin25-dlltool-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/opt/X11/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-dlltool-15"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-dlltool-15"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-dlltool"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-dlltool"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-dlltool"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-dlltool"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-dlltool"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-dlltool"
+      - "/usr/local/bin/aarch64-apple-darwin25-dlltool"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-dlltool"
+      - "/usr/bin/aarch64-apple-darwin25-dlltool"
+      - "/bin/aarch64-apple-darwin25-dlltool"
+      - "/usr/sbin/aarch64-apple-darwin25-dlltool"
+      - "/sbin/aarch64-apple-darwin25-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-dlltool"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-dlltool"
+      - "/opt/X11/bin/aarch64-apple-darwin25-dlltool"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-dlltool"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-dlltool"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-dlltool"
+      - "/opt/homebrew/bin/dlltool-15"
+      - "/Users/yashkhanduja/.mavis/bin/dlltool-15"
+      - "/Users/yashkhanduja/.local/bin/dlltool-15"
+      - "/Users/yashkhanduja/miniconda3/bin/dlltool-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/dlltool-15"
+      - "/opt/homebrew/sbin/dlltool-15"
+      - "/usr/local/bin/dlltool-15"
+      - "/System/Cryptexes/App/usr/bin/dlltool-15"
+      - "/usr/bin/dlltool-15"
+      - "/bin/dlltool-15"
+      - "/usr/sbin/dlltool-15"
+      - "/sbin/dlltool-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool-15"
+      - "/pkg/env/global/bin/dlltool-15"
+      - "/opt/X11/bin/dlltool-15"
+      - "/Library/TeX/texbin/dlltool-15"
+      - "/Users/yashkhanduja/.cargo/bin/dlltool-15"
+      - "/Users/yashkhanduja/.foundry/bin/dlltool-15"
+      - "/opt/homebrew/bin/dlltool"
+      - "/Users/yashkhanduja/.mavis/bin/dlltool"
+      - "/Users/yashkhanduja/.local/bin/dlltool"
+      - "/Users/yashkhanduja/miniconda3/bin/dlltool"
+      - "/Users/yashkhanduja/miniconda3/condabin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/pkg/env/global/bin/dlltool"
+      - "/opt/X11/bin/dlltool"
+      - "/Library/TeX/texbin/dlltool"
+      - "/Users/yashkhanduja/.cargo/bin/dlltool"
+      - "/Users/yashkhanduja/.foundry/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-addr2line-15"
+      - "aarch64-apple-darwin25-addr2line"
+      - "addr2line-15"
+      - "addr2line"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-addr2line-15"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-addr2line-15"
+      - "/usr/local/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/usr/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/usr/sbin/aarch64-apple-darwin25-addr2line-15"
+      - "/sbin/aarch64-apple-darwin25-addr2line-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/opt/X11/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-addr2line-15"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-addr2line-15"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-addr2line"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-addr2line"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-addr2line"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-addr2line"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-addr2line"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-addr2line"
+      - "/usr/local/bin/aarch64-apple-darwin25-addr2line"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-addr2line"
+      - "/usr/bin/aarch64-apple-darwin25-addr2line"
+      - "/bin/aarch64-apple-darwin25-addr2line"
+      - "/usr/sbin/aarch64-apple-darwin25-addr2line"
+      - "/sbin/aarch64-apple-darwin25-addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-addr2line"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-addr2line"
+      - "/opt/X11/bin/aarch64-apple-darwin25-addr2line"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-addr2line"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-addr2line"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-addr2line"
+      - "/opt/homebrew/bin/addr2line-15"
+      - "/Users/yashkhanduja/.mavis/bin/addr2line-15"
+      - "/Users/yashkhanduja/.local/bin/addr2line-15"
+      - "/Users/yashkhanduja/miniconda3/bin/addr2line-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/addr2line-15"
+      - "/opt/homebrew/sbin/addr2line-15"
+      - "/usr/local/bin/addr2line-15"
+      - "/System/Cryptexes/App/usr/bin/addr2line-15"
+      - "/usr/bin/addr2line-15"
+      - "/bin/addr2line-15"
+      - "/usr/sbin/addr2line-15"
+      - "/sbin/addr2line-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line-15"
+      - "/pkg/env/global/bin/addr2line-15"
+      - "/opt/X11/bin/addr2line-15"
+      - "/Library/TeX/texbin/addr2line-15"
+      - "/Users/yashkhanduja/.cargo/bin/addr2line-15"
+      - "/Users/yashkhanduja/.foundry/bin/addr2line-15"
+      - "/opt/homebrew/bin/addr2line"
+      - "/Users/yashkhanduja/.mavis/bin/addr2line"
+      - "/Users/yashkhanduja/.local/bin/addr2line"
+      - "/Users/yashkhanduja/miniconda3/bin/addr2line"
+      - "/Users/yashkhanduja/miniconda3/condabin/addr2line"
+      - "/opt/homebrew/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/pkg/env/global/bin/addr2line"
+      - "/opt/X11/bin/addr2line"
+      - "/Library/TeX/texbin/addr2line"
+      - "/Users/yashkhanduja/.cargo/bin/addr2line"
+      - "/Users/yashkhanduja/.foundry/bin/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-tapi-15"
+      - "aarch64-apple-darwin25-tapi"
+      - "tapi-15"
+      - "tapi"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-tapi-15"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-tapi-15"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-tapi-15"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-tapi-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-tapi-15"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-tapi-15"
+      - "/usr/local/bin/aarch64-apple-darwin25-tapi-15"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-tapi-15"
+      - "/usr/bin/aarch64-apple-darwin25-tapi-15"
+      - "/bin/aarch64-apple-darwin25-tapi-15"
+      - "/usr/sbin/aarch64-apple-darwin25-tapi-15"
+      - "/sbin/aarch64-apple-darwin25-tapi-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-tapi-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-tapi-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-tapi-15"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-tapi-15"
+      - "/opt/X11/bin/aarch64-apple-darwin25-tapi-15"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-tapi-15"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-tapi-15"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-tapi-15"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-tapi"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-tapi"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-tapi"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-tapi"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-tapi"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-tapi"
+      - "/usr/local/bin/aarch64-apple-darwin25-tapi"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-tapi"
+      - "/usr/bin/aarch64-apple-darwin25-tapi"
+      - "/bin/aarch64-apple-darwin25-tapi"
+      - "/usr/sbin/aarch64-apple-darwin25-tapi"
+      - "/sbin/aarch64-apple-darwin25-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-tapi"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-tapi"
+      - "/opt/X11/bin/aarch64-apple-darwin25-tapi"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-tapi"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-tapi"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-tapi"
+      - "/opt/homebrew/bin/tapi-15"
+      - "/Users/yashkhanduja/.mavis/bin/tapi-15"
+      - "/Users/yashkhanduja/.local/bin/tapi-15"
+      - "/Users/yashkhanduja/miniconda3/bin/tapi-15"
+      - "/Users/yashkhanduja/miniconda3/condabin/tapi-15"
+      - "/opt/homebrew/sbin/tapi-15"
+      - "/usr/local/bin/tapi-15"
+      - "/System/Cryptexes/App/usr/bin/tapi-15"
+      - "/usr/bin/tapi-15"
+      - "/bin/tapi-15"
+      - "/usr/sbin/tapi-15"
+      - "/sbin/tapi-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi-15"
+      - "/pkg/env/global/bin/tapi-15"
+      - "/opt/X11/bin/tapi-15"
+      - "/Library/TeX/texbin/tapi-15"
+      - "/Users/yashkhanduja/.cargo/bin/tapi-15"
+      - "/Users/yashkhanduja/.foundry/bin/tapi-15"
+      - "/opt/homebrew/bin/tapi"
+      - "/Users/yashkhanduja/.mavis/bin/tapi"
+      - "/Users/yashkhanduja/.local/bin/tapi"
+      - "/Users/yashkhanduja/miniconda3/bin/tapi"
+      - "/Users/yashkhanduja/miniconda3/condabin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/pkg/env/global/bin/tapi"
+      - "/opt/X11/bin/tapi"
+      - "/Library/TeX/texbin/tapi"
+      - "/Users/yashkhanduja/.cargo/bin/tapi"
+      - "/Users/yashkhanduja/.foundry/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-gcc-ar-15.2"
+      - "aarch64-apple-darwin25-gcc-ar-15"
+      - "aarch64-apple-darwin25-gcc-ar15"
+      - "aarch64-apple-darwin25-gcc-ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/usr/local/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/usr/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/usr/sbin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/sbin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/opt/X11/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-gcc-ar-15.2"
+    found: "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ar-15"
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "aarch64-apple-darwin25-gcc-ranlib-15"
+      - "aarch64-apple-darwin25-gcc-ranlib15"
+      - "aarch64-apple-darwin25-gcc-ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/Users/yashkhanduja/.mavis/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/Users/yashkhanduja/.local/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/Users/yashkhanduja/miniconda3/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/Users/yashkhanduja/miniconda3/condabin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/usr/local/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/usr/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/usr/sbin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/sbin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/opt/X11/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/Library/TeX/texbin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/Users/yashkhanduja/.cargo/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+      - "/Users/yashkhanduja/.foundry/bin/aarch64-apple-darwin25-gcc-ranlib-15.2"
+    found: "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ranlib-15"
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/yashkhanduja/.mavis/bin/"
+      - "/Users/yashkhanduja/.local/bin/"
+      - "/Users/yashkhanduja/miniconda3/bin/"
+      - "/Users/yashkhanduja/miniconda3/condabin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/yashkhanduja/.cargo/bin/"
+      - "/Users/yashkhanduja/.foundry/bin/"
+    searched_directories:
+      - "/Users/yashkhanduja/.mavis/bin/install_name_tool"
+      - "/Users/yashkhanduja/.local/bin/install_name_tool"
+      - "/Users/yashkhanduja/miniconda3/bin/install_name_tool"
+      - "/Users/yashkhanduja/miniconda3/condabin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/yashkhanduja/.mavis/bin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/miniconda3/bin"
+        - "/Users/yashkhanduja/miniconda3/condabin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/opt/X11/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/yashkhanduja/.local/bin"
+        - "/Users/yashkhanduja/.cargo/bin"
+        - "/Users/yashkhanduja/.foundry/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/yashkhanduja/Documents/competitive programming/build/CMakeFiles/CMakeScratch/TryCompile-WSNlaC"
+      binary: "/Users/yashkhanduja/Documents/competitive programming/build/CMakeFiles/CMakeScratch/TryCompile-WSNlaC"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yashkhanduja/Documents/competitive programming/build/CMakeFiles/CMakeScratch/TryCompile-WSNlaC'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a40f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4a40f.dir/build.make CMakeFiles/cmTC_4a40f.dir/build
+        Building CXX object CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/homebrew/bin/aarch64-apple-darwin25-g++-15   -arch arm64   -v -Wl,-v -o CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin25-g++-15
+        Target: aarch64-apple-darwin25
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-15 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 15.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Homebrew GCC 15.2.0) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=26.0.0' '-asm_macosx_version_min=26.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4a40f.dir/'
+         /opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/cc1plus -quiet -v -iprefix /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/ -D__DYNAMIC__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_4a40f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=26.0.0 -mcpu=apple-m1 -mlittle-endian -mabi=lp64 -version -o /var/folders/hj/3wr6l9rn03b0qd39xh428js00000gn/T//ccHTAtr6.s
+        GNU C++17 (Homebrew GCC 15.2.0) version 15.2.0 (aarch64-apple-darwin25)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../aarch64-apple-darwin25/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15/aarch64-apple-darwin25"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15/backward"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../aarch64-apple-darwin25/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15
+         /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15/aarch64-apple-darwin25
+         /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15/backward
+         /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include
+         /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks
+        End of search list.
+        Compiler executable checksum: c7af389c5849a7652e5881df9406c02a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=26.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4a40f.dir/'
+         as -arch arm64 -v -mmacosx-version-min=26.0 -o CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o /var/folders/hj/3wr6l9rn03b0qd39xh428js00000gn/T//ccHTAtr6.s
+        Apple clang version 17.0.0 (clang-1700.6.4.2)
+        Target: arm64-apple-darwin25.5.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx26.0.0 -target-sdk-version=26.2 -filetype obj -main-file-name ccHTAtr6.s -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs "-fdebug-compilation-dir=/Users/yashkhanduja/Documents/competitive programming/build/CMakeFiles/CMakeScratch/TryCompile-WSNlaC" -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.6.4.2)" -dwarf-version=5 -mrelocation-model pic -o CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o /var/folders/hj/3wr6l9rn03b0qd39xh428js00000gn/T//ccHTAtr6.s
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=26.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_4a40f
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a40f.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin25-g++-15
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/lto-wrapper
+        Target: aarch64-apple-darwin25
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-15 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 15.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Homebrew GCC 15.2.0) 
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a40f' '-mmacosx-version-min=26.0.0' '-asm_macosx_version_min=26.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_4a40f.'
+         /opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/collect2 -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -dynamic -arch arm64 -macos_version_min 26.0.0 -o cmTC_4a40f -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15 -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15 -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current
+        collect2 version 15.2.0
+        /usr/bin/ld -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -dynamic -arch arm64 -macos_version_min 26.0.0 -o cmTC_4a40f -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15 -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15 -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current
+        @(#)PROGRAM:ld PROJECT:ld-1230.1
+        BUILD 10:14:01 Jan  9 2026
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+        Library search paths:
+        	/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15
+        	/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc
+        	/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks
+        /opt/homebrew/bin/aarch64-apple-darwin25-g++-15  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4a40f
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15]
+          add: [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15/aarch64-apple-darwin25]
+          add: [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15/backward]
+          add: [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include]
+          add: [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        end of search list found
+        collapse include dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15] ==> [/opt/homebrew/Cellar/gcc/15.2.0/include/c++/15]
+        collapse include dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15/aarch64-apple-darwin25] ==> [/opt/homebrew/Cellar/gcc/15.2.0/include/c++/15/aarch64-apple-darwin25]
+        collapse include dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15/backward] ==> [/opt/homebrew/Cellar/gcc/15.2.0/include/c++/15/backward]
+        collapse include dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15/include]
+        collapse include dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        implicit include dirs: [/opt/homebrew/Cellar/gcc/15.2.0/include/c++/15;/opt/homebrew/Cellar/gcc/15.2.0/include/c++/15/aarch64-apple-darwin25;/opt/homebrew/Cellar/gcc/15.2.0/include/c++/15/backward;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15/include;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/yashkhanduja/Documents/competitive programming/build/CMakeFiles/CMakeScratch/TryCompile-WSNlaC']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a40f/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4a40f.dir/build.make CMakeFiles/cmTC_4a40f.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/homebrew/bin/aarch64-apple-darwin25-g++-15   -arch arm64   -v -Wl -v -o CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin25-g++-15]
+        ignore line: [Target: aarch64-apple-darwin25]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-15 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 15.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Homebrew GCC 15.2.0) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=26.0.0' '-asm_macosx_version_min=26.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4a40f.dir/']
+        ignore line: [ /opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/cc1plus -quiet -v -iprefix /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/ -D__DYNAMIC__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_4a40f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=26.0.0 -mcpu=apple-m1 -mlittle-endian -mabi=lp64 -version -o /var/folders/hj/3wr6l9rn03b0qd39xh428js00000gn/T//ccHTAtr6.s]
+        ignore line: [GNU C++17 (Homebrew GCC 15.2.0) version 15.2.0 (aarch64-apple-darwin25)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../aarch64-apple-darwin25/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15/aarch64-apple-darwin25"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15/backward"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../aarch64-apple-darwin25/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15]
+        ignore line: [ /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15/aarch64-apple-darwin25]
+        ignore line: [ /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../../../../include/c++/15/backward]
+        ignore line: [ /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include]
+        ignore line: [ /opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/include-fixed]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: c7af389c5849a7652e5881df9406c02a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=26.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4a40f.dir/']
+        ignore line: [ as -arch arm64 -v -mmacosx-version-min=26.0 -o CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o /var/folders/hj/3wr6l9rn03b0qd39xh428js00000gn/T//ccHTAtr6.s]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
+        ignore line: [Target: arm64-apple-darwin25.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx26.0.0 -target-sdk-version=26.2 -filetype obj -main-file-name ccHTAtr6.s -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs "-fdebug-compilation-dir=/Users/yashkhanduja/Documents/competitive programming/build/CMakeFiles/CMakeScratch/TryCompile-WSNlaC" -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.6.4.2)" -dwarf-version=5 -mrelocation-model pic -o CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o /var/folders/hj/3wr6l9rn03b0qd39xh428js00000gn/T//ccHTAtr6.s]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=26.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_4a40f]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a40f.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin25-g++-15]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/lto-wrapper]
+        ignore line: [Target: aarch64-apple-darwin25]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-15 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 15.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Homebrew GCC 15.2.0) ]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a40f' '-mmacosx-version-min=26.0.0' '-asm_macosx_version_min=26.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_4a40f.']
+        link line: [ /opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/collect2 -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -dynamic -arch arm64 -macos_version_min 26.0.0 -o cmTC_4a40f -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15 -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15 -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current]
+          arg [/opt/homebrew/Cellar/gcc/15.2.0/bin/../libexec/gcc/aarch64-apple-darwin25/15/collect2] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-macos_version_min] ==> ignore
+          arg [26.0.0] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_4a40f] ==> ignore
+          arg [-L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15] ==> dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15]
+          arg [-L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc] ==> dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc]
+          arg [-L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../..] ==> dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../..]
+          arg [-lemutls_w] ==> lib [emutls_w]
+          arg [-lheapt_w] ==> lib [heapt_w]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lSystem] ==> lib [System]
+          arg [-no_compact_unwind] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [@loader_path] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current] ==> ignore
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/usr/bin/ld -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -dynamic -arch arm64 -macos_version_min 26.0.0 -o cmTC_4a40f -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15 -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4a40f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15 -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current]
+        linker tool for 'CXX': /usr/bin/ld
+        Library search paths: [;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        remove lib [System]
+        collapse library dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15]
+        collapse library dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/15.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/15/../../..] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current]
+        collapse library dir [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15]
+        collapse library dir [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current] ==> [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        implicit libs: [emutls_w;heapt_w;stdc++;gcc]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc/aarch64-apple-darwin25/15;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/15.2.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1230.1
+      BUILD 10:14:01 Jan  9 2026
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+...

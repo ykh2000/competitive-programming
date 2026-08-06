@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Codeforces___Educational_Codeforces_Round_103_Rated_for_Div_2_A_K_divisible_SumFavorite_cpp.dir/Codeforces_-_Educational_Codeforces_Round_103_Rated_for_Div_2/A_K_divisible_SumFavorite.cpp.o"
+  "CMakeFiles/Codeforces___Educational_Codeforces_Round_103_Rated_for_Div_2_A_K_divisible_SumFavorite_cpp.dir/Codeforces_-_Educational_Codeforces_Round_103_Rated_for_Div_2/A_K_divisible_SumFavorite.cpp.o.d"
+  "Codeforces___Educational_Codeforces_Round_103_Rated_for_Div_2_A_K_divisible_SumFavorite_cpp"
+  "Codeforces___Educational_Codeforces_Round_103_Rated_for_Div_2_A_K_divisible_SumFavorite_cpp.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Codeforces___Educational_Codeforces_Round_103_Rated_for_Div_2_A_K_divisible_SumFavorite_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

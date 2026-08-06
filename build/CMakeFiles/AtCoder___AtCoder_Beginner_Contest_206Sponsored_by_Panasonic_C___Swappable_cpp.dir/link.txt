@@ -1,0 +1,1 @@
+/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/AtCoder___AtCoder_Beginner_Contest_206Sponsored_by_Panasonic_C___Swappable_cpp.dir/AtCoder_-_AtCoder_Beginner_Contest_206Sponsored_by_Panasonic/C___Swappable.cpp.o" -o AtCoder___AtCoder_Beginner_Contest_206Sponsored_by_Panasonic_C___Swappable_cpp

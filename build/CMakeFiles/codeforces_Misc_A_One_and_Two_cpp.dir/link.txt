@@ -1,0 +1,1 @@
+/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/codeforces_Misc_A_One_and_Two_cpp.dir/codeforces/Misc/A_One_and_Two.cpp.o -o codeforces_Misc_A_One_and_Two_cpp

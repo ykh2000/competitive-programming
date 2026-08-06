@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Codeforces___Codeforces_Round_439_Div_2_B_The_Eternal_ImmortalityFavorite_cpp.dir/Codeforces_-_Codeforces_Round_439_Div_2/B_The_Eternal_ImmortalityFavorite.cpp.o"
+  "CMakeFiles/Codeforces___Codeforces_Round_439_Div_2_B_The_Eternal_ImmortalityFavorite_cpp.dir/Codeforces_-_Codeforces_Round_439_Div_2/B_The_Eternal_ImmortalityFavorite.cpp.o.d"
+  "Codeforces___Codeforces_Round_439_Div_2_B_The_Eternal_ImmortalityFavorite_cpp"
+  "Codeforces___Codeforces_Round_439_Div_2_B_The_Eternal_ImmortalityFavorite_cpp.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Codeforces___Codeforces_Round_439_Div_2_B_The_Eternal_ImmortalityFavorite_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

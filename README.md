@@ -14,7 +14,8 @@ A repository containing my solutions to competitive programming problems and imp
 
 **Goal:** Reach <font color="00008B">**Blue**</font> rating on Codeforces ![Codeforces](https://img.shields.io/badge/-Codeforces-445DA7?style=flat&logo=codeforces&logoColor=white) / AtCoder ![AtCoder](https://img.shields.io/badge/-AtCoder-000000?style=flat&logo=atcoder&logoColor=white)
 
-**Goal:** Reach <img src="https://raw.githubusercontent.com/ykh2000/competitive-programming/main/image_0.png" height="18" style="vertical-align: middle; margin: 0 4px;" alt="Dark Blue"> **Blue** rating on Codeforces ![Codeforces](https://img.shields.io/badge/-Codeforces-445DA7?style=flat&logo=codeforces&logoColor=white) / AtCoder ![AtCoder](https://img.shields.io/badge/-AtCoder-000000?style=flat&logo=atcoder&logoColor=white)
+**Goal:** Reach <img width="128" height="50" alt="image" src="https://github.com/user-attachments/assets/04ac1c53-47a2-4320-bc9a-ac16ab1a50fb" />
+ **Blue** rating on Codeforces ![Codeforces](https://img.shields.io/badge/-Codeforces-445DA7?style=flat&logo=codeforces&logoColor=white) / AtCoder ![AtCoder](https://img.shields.io/badge/-AtCoder-000000?style=flat&logo=atcoder&logoColor=white)
 
 
 #### Repository Structure

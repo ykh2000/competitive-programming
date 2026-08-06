@@ -2,3 +2,24 @@
 .vscode/
 .alpackages/
 .snapshots/
+.DS_Store
+# Debug symbols
+*.dSYM/
+*.dSYM
+# Compiled binaries
+bin/
+build/
+*.out
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+# CMake generated files
+CMakeFiles/
+cmake-build-*/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+# CMake-generated root Makefile
+/Makefile

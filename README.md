@@ -15,13 +15,3 @@ A repository containing my solutions to competitive programming problems and imp
 
 **Goal:** Reach <img width="40" height="17" src="https://github.com/user-attachments/assets/70322c77-a672-4306-b0d1-68667ff9573b" height="16" alt="Blue" /> **Blue** rating on Codeforces <img src="https://img.shields.io/badge/-Codeforces-445DA7?style=flat&logo=codeforces&logoColor=white" height="16" alt="Codeforces" /> / AtCoder <img src="https://img.shields.io/badge/-AtCoder-000000?style=flat&logo=atcoder&logoColor=white" height="16" alt="AtCoder" />
 
-
-
-#### Repository Structure
-
-```text
-├── Algorithms/         # Standard algorithm implementations
-├── Data-Structures/    # Custom data structure templates
-├── LeetCode/           # Solved LeetCode problems
-├── Codeforces/         # Contest & practice solutions
-└── Templates/          # Fast I/O & boilerplate code

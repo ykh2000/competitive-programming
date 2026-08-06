@@ -1,8 +1,6 @@
-## Competitive Programming
+#### Competitive Programming
 
 A repository containing my solutions to competitive programming problems and implementations of key Data Structures & Algorithms (DSA).
-
-### Platforms Covered
 
 #### Profiles
 

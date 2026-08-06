@@ -1,1 +1,0 @@
-/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/CSES_Number_Spiral_cpp.dir/CSES/Number_Spiral.cpp.o -o CSES_Number_Spiral_cpp

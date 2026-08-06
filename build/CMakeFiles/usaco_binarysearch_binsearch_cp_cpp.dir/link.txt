@@ -1,1 +1,0 @@
-/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/usaco_binarysearch_binsearch_cp_cpp.dir/usaco/binarysearch/binsearch_cp.cpp.o -o usaco_binarysearch_binsearch_cp_cpp

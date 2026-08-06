@@ -1,1 +1,0 @@
-/opt/homebrew/bin/aarch64-apple-darwin25-g++-15 -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/CSES_A_Pizza_Separation_cpp.dir/CSES/A_Pizza_Separation.cpp.o -o CSES_A_Pizza_Separation_cpp

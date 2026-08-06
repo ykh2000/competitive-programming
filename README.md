@@ -12,6 +12,8 @@ A repository containing my solutions to competitive programming problems and imp
 [![AtCoder](https://img.shields.io/badge/AtCoder-000000?style=for-the-badge&logo=atcoder&logoColor=white)](https://atcoder.jp/users/ykshdja)
 [![CSES](https://img.shields.io/badge/CSES-2D3748?style=for-the-badge)](https://cses.fi/user/434476)
 
+**Goal:** Reach <font color="00008B">**Blue**</font> rating on Codeforces ![Codeforces](https://img.shields.io/badge/-Codeforces-445DA7?style=flat&logo=codeforces&logoColor=white) / AtCoder ![AtCoder](https://img.shields.io/badge/-AtCoder-000000?style=flat&logo=atcoder&logoColor=white)
+
 #### Repository Structure
 
 ```text

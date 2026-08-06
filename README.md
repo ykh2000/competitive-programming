@@ -12,10 +12,9 @@ A repository containing my solutions to competitive programming problems and imp
 [![AtCoder](https://img.shields.io/badge/AtCoder-000000?style=for-the-badge&logo=atcoder&logoColor=white)](https://atcoder.jp/users/ykshdja)
 [![CSES](https://img.shields.io/badge/CSES-2D3748?style=for-the-badge)](https://cses.fi/user/434476)
 
-**Goal:** Reach <img width="40" height="17" alt="Screenshot 2026-08-06 at 10 30 30 PM" src="https://github.com/user-attachments/assets/70322c77-a672-4306-b0d1-68667ff9573b" />
 
-**Goal:** Reach <img width="128" height="50" alt="image" src="https://github.com/user-attachments/assets/04ac1c53-47a2-4320-bc9a-ac16ab1a50fb" />
- **Blue** rating on Codeforces ![Codeforces](https://img.shields.io/badge/-Codeforces-445DA7?style=flat&logo=codeforces&logoColor=white) / AtCoder ![AtCoder](https://img.shields.io/badge/-AtCoder-000000?style=flat&logo=atcoder&logoColor=white)
+**Goal:** Reach  <img width="40" height="17" alt="Screenshot 2026-08-06 at 10 30 30 PM" src="https://github.com/user-attachments/assets/70322c77-a672-4306-b0d1-68667ff9573b" />
+ rating on Codeforces ![Codeforces](https://img.shields.io/badge/-Codeforces-445DA7?style=flat&logo=codeforces&logoColor=white) / AtCoder ![AtCoder](https://img.shields.io/badge/-AtCoder-000000?style=flat&logo=atcoder&logoColor=white)
 
 
 #### Repository Structure

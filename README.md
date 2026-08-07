@@ -13,3 +13,19 @@ A repository containing my solutions to competitive programming problems and imp
 
 **Goal:** Reach <img width="40" height="17" src="https://github.com/user-attachments/assets/70322c77-a672-4306-b0d1-68667ff9573b" height="16" alt="Blue" /> **Blue** rating on Codeforces <img src="https://img.shields.io/badge/-Codeforces-445DA7?style=flat&logo=codeforces&logoColor=white" height="16" alt="Codeforces" /> / AtCoder <img src="https://img.shields.io/badge/-AtCoder-000000?style=flat&logo=atcoder&logoColor=white" height="16" alt="AtCoder" />
 
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0994-rotting-oranges](https://github.com/ykh2000/competitive-programming/tree/main/0994-rotting-oranges/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0994-rotting-oranges](https://github.com/ykh2000/competitive-programming/tree/main/0994-rotting-oranges/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0994-rotting-oranges](https://github.com/ykh2000/competitive-programming/tree/main/0994-rotting-oranges/) | Medium |
+<!---LeetCode Topics End-->

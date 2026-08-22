@@ -23,9 +23,22 @@ A repository containing my solutions to competitive programming problems and imp
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0127-word-ladder](https://github.com/ykh2000/competitive-programming/tree/main/0127-word-ladder/) | Hard |
 | [0994-rotting-oranges](https://github.com/ykh2000/competitive-programming/tree/main/0994-rotting-oranges/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0994-rotting-oranges](https://github.com/ykh2000/competitive-programming/tree/main/0994-rotting-oranges/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0127-word-ladder](https://github.com/ykh2000/competitive-programming/tree/main/0127-word-ladder/) | Hard |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0127-word-ladder](https://github.com/ykh2000/competitive-programming/tree/main/0127-word-ladder/) | Hard |
+## Bidirectional Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0127-word-ladder](https://github.com/ykh2000/competitive-programming/tree/main/0127-word-ladder/) | Hard |
 <!---LeetCode Topics End-->

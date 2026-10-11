@@ -26,6 +26,7 @@ A repository containing my solutions to competitive programming problems and imp
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0112-path-sum](https://github.com/ykh2000/competitive-programming/tree/main/0112-path-sum/) | Easy |
 | [0127-word-ladder](https://github.com/ykh2000/competitive-programming/tree/main/0127-word-ladder/) | Hard |
 | [0130-surrounded-regions](https://github.com/ykh2000/competitive-programming/tree/main/0130-surrounded-regions/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/ykh2000/competitive-programming/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
@@ -53,6 +54,7 @@ A repository containing my solutions to competitive programming problems and imp
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0112-path-sum](https://github.com/ykh2000/competitive-programming/tree/main/0112-path-sum/) | Easy |
 | [0130-surrounded-regions](https://github.com/ykh2000/competitive-programming/tree/main/0130-surrounded-regions/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/ykh2000/competitive-programming/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/ykh2000/competitive-programming/tree/main/1254-number-of-closed-islands/) | Medium |
@@ -61,4 +63,12 @@ A repository containing my solutions to competitive programming problems and imp
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/ykh2000/competitive-programming/tree/main/0130-surrounded-regions/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/ykh2000/competitive-programming/tree/main/1254-number-of-closed-islands/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0112-path-sum](https://github.com/ykh2000/competitive-programming/tree/main/0112-path-sum/) | Easy |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0112-path-sum](https://github.com/ykh2000/competitive-programming/tree/main/0112-path-sum/) | Easy |
 <!---LeetCode Topics End-->

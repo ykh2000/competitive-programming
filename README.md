@@ -47,6 +47,7 @@ A repository containing my solutions to competitive programming problems and imp
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0127-word-ladder](https://github.com/ykh2000/competitive-programming/tree/main/0127-word-ladder/) | Hard |
+| [0257-binary-tree-paths](https://github.com/ykh2000/competitive-programming/tree/main/0257-binary-tree-paths/) | Easy |
 ## Bidirectional Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -56,6 +57,7 @@ A repository containing my solutions to competitive programming problems and imp
 | ------- | ------- |
 | [0112-path-sum](https://github.com/ykh2000/competitive-programming/tree/main/0112-path-sum/) | Easy |
 | [0130-surrounded-regions](https://github.com/ykh2000/competitive-programming/tree/main/0130-surrounded-regions/) | Medium |
+| [0257-binary-tree-paths](https://github.com/ykh2000/competitive-programming/tree/main/0257-binary-tree-paths/) | Easy |
 | [0417-pacific-atlantic-water-flow](https://github.com/ykh2000/competitive-programming/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/ykh2000/competitive-programming/tree/main/1254-number-of-closed-islands/) | Medium |
 ## Union-Find
@@ -67,8 +69,14 @@ A repository containing my solutions to competitive programming problems and imp
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0112-path-sum](https://github.com/ykh2000/competitive-programming/tree/main/0112-path-sum/) | Easy |
+| [0257-binary-tree-paths](https://github.com/ykh2000/competitive-programming/tree/main/0257-binary-tree-paths/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0112-path-sum](https://github.com/ykh2000/competitive-programming/tree/main/0112-path-sum/) | Easy |
+| [0257-binary-tree-paths](https://github.com/ykh2000/competitive-programming/tree/main/0257-binary-tree-paths/) | Easy |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0257-binary-tree-paths](https://github.com/ykh2000/competitive-programming/tree/main/0257-binary-tree-paths/) | Easy |
 <!---LeetCode Topics End-->

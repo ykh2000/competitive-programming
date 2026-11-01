@@ -23,6 +23,7 @@ A repository containing my solutions to competitive programming problems and imp
 | [0200-number-of-islands](https://github.com/ykh2000/competitive-programming/tree/main/0200-number-of-islands/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/ykh2000/competitive-programming/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0463-island-perimeter](https://github.com/ykh2000/competitive-programming/tree/main/0463-island-perimeter/) | Easy |
+| [0695-max-area-of-island](https://github.com/ykh2000/competitive-programming/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/ykh2000/competitive-programming/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/ykh2000/competitive-programming/tree/main/0994-rotting-oranges/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/ykh2000/competitive-programming/tree/main/1254-number-of-closed-islands/) | Medium |
@@ -36,6 +37,7 @@ A repository containing my solutions to competitive programming problems and imp
 | [0207-course-schedule](https://github.com/ykh2000/competitive-programming/tree/main/0207-course-schedule/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/ykh2000/competitive-programming/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0463-island-perimeter](https://github.com/ykh2000/competitive-programming/tree/main/0463-island-perimeter/) | Easy |
+| [0695-max-area-of-island](https://github.com/ykh2000/competitive-programming/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/ykh2000/competitive-programming/tree/main/0733-flood-fill/) | Easy |
 | [0797-all-paths-from-source-to-target](https://github.com/ykh2000/competitive-programming/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0994-rotting-oranges](https://github.com/ykh2000/competitive-programming/tree/main/0994-rotting-oranges/) | Medium |
@@ -47,6 +49,7 @@ A repository containing my solutions to competitive programming problems and imp
 | [0200-number-of-islands](https://github.com/ykh2000/competitive-programming/tree/main/0200-number-of-islands/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/ykh2000/competitive-programming/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0463-island-perimeter](https://github.com/ykh2000/competitive-programming/tree/main/0463-island-perimeter/) | Easy |
+| [0695-max-area-of-island](https://github.com/ykh2000/competitive-programming/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/ykh2000/competitive-programming/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/ykh2000/competitive-programming/tree/main/0994-rotting-oranges/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/ykh2000/competitive-programming/tree/main/1254-number-of-closed-islands/) | Medium |
@@ -73,6 +76,7 @@ A repository containing my solutions to competitive programming problems and imp
 | [0257-binary-tree-paths](https://github.com/ykh2000/competitive-programming/tree/main/0257-binary-tree-paths/) | Easy |
 | [0417-pacific-atlantic-water-flow](https://github.com/ykh2000/competitive-programming/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0463-island-perimeter](https://github.com/ykh2000/competitive-programming/tree/main/0463-island-perimeter/) | Easy |
+| [0695-max-area-of-island](https://github.com/ykh2000/competitive-programming/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/ykh2000/competitive-programming/tree/main/0733-flood-fill/) | Easy |
 | [0797-all-paths-from-source-to-target](https://github.com/ykh2000/competitive-programming/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/ykh2000/competitive-programming/tree/main/1254-number-of-closed-islands/) | Medium |
@@ -81,6 +85,7 @@ A repository containing my solutions to competitive programming problems and imp
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/ykh2000/competitive-programming/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/ykh2000/competitive-programming/tree/main/0200-number-of-islands/) | Medium |
+| [0695-max-area-of-island](https://github.com/ykh2000/competitive-programming/tree/main/0695-max-area-of-island/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/ykh2000/competitive-programming/tree/main/1254-number-of-closed-islands/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
